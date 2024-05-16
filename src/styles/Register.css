@@ -1,0 +1,46 @@
+.registerContainer {
+    max-width: 400px; /* Container maksimum genişliğini ayarla */
+    height: 1200px;
+    margin: 0 auto; /* Sayfa ortasında hizalamak için margin kullan */
+    padding: 20px; /* Container içinde biraz boşluk bırak */
+    background-color: #140F23; /* Container arka plan rengini ayarla */
+    border-radius: 8px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+h2 {
+    text-align: center; /* Başlık metnini ortala */
+}
+.registerContainer form {
+    margin-top: 20px; /* Form üst kısmına biraz boşluk bırak */
+}
+.registerContainer input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%; /* Giriş alanı genişliğini ayarla */
+    padding: 10px; /* İç dolguları ayarla */
+    margin-bottom: 10px; /* Giriş alanları arasına boşluk bırak */
+    border: 1px solid #ccc; /* Kenarlık rengini ayarla */
+    border-radius: 4px; /* Yuvarlatılmış köşeler */
+    box-sizing: border-box; /* Kenarlık ve dolguları genişlik dahilinde tut */
+    font-size: 16px; /* Metin boyutunu ayarla */
+}
+.registerContainer input[type="submit"] {
+    background-color: #1B143C; /* Arka plan rengini ayarla */
+    color: #fff; /* Metin rengini ayarla */
+    border: none; /* Kenarlık oluşturma */
+    padding: 12px 20px; /* İç dolguları ayarla */
+    border-radius: 4px; /* Yuvarlatılmış köşeler */
+    font-size: 16px; /* Metin boyutunu ayarla */
+    cursor: pointer; /* İmleci el işareti yap */
+    width: 100%; /* Genişlik */
+}
+.registerContainer input[type="submit"]:hover {
+    background-color: #2B2850; /* Arka plan rengini hover durumunda ayarla */
+}
+.registerContainer .interests-list li {
+     cursor: pointer;
+     margin-bottom: 5px;
+ }
+
+/* Seçilen ilgi alanları */
+.selected {
+    text-decoration: underline;
+}

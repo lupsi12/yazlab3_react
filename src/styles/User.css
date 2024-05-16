@@ -1,0 +1,49 @@
+.userContainer {
+    max-width: 800px; /* Container maksimum genişliğini ayarla */
+    height: auto;
+    margin: 0 auto; /* Sayfa ortasında hizalamak için margin kullan */
+    padding: 20px; /* Container içinde biraz boşluk bırak */
+    background-color: #140F23; /* Container arka plan rengini ayarla */
+    border-radius: 8px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+.userContainer button{
+    background-color: #1B143C; /* Arka plan rengini ayarla */
+    color: #fff; /* Metin rengini ayarla */
+    border: none; /* Kenarlık oluşturma */
+    padding: 12px 20px; /* İç dolguları ayarla */
+    border-radius: 4px; /* Yuvarlatılmış köşeler */
+    font-size: 16px; /* Metin boyutunu ayarla */
+    cursor: pointer; /* İmleci el işareti yap */
+    width: 100%; /* Genişlik */
+}
+.userContainer button:hover {
+    background-color: #2B2850; /* Arka plan rengini hover durumunda ayarla */
+}
+.userContainer .card {
+    background-color: #2B2850;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+.card p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #f5f5dc;
+    margin: 10px;
+}
+.card .cardItem {
+    background-color: #140F23;
+}
+
+.card .cardDetail {
+    background-color: #1B143C;
+}
+.card .cardItemDesign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}

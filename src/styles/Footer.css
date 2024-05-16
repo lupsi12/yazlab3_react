@@ -1,0 +1,16 @@
+.footer {
+    background-image: linear-gradient(to left, rgb(20 15 35), rgb(27 20 60));
+    color: #f5f5dc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container p {
+
+}
+

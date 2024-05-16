@@ -1,0 +1,45 @@
+.header {
+    background-image: linear-gradient(to left, rgb(20 15 35), rgb(27 20 60));
+    color: #f5f5dc;
+    padding: 20px 0;
+}
+
+.container {
+    width: 200%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 200px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: beige;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: beige;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+}
